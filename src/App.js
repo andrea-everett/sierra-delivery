@@ -1,5 +1,8 @@
 import DrawerAppBar from "./Components/DrawerAppBar";
 import ReusableButton from "./Components/Reusable/ReusableButton";
+import '@fontsource/roboto/300.css';
+
+import { Grid, Typography } from "@mui/material"
 
 const App = () => {
 
@@ -7,9 +10,28 @@ const App = () => {
 
     <div className='App'>
       <DrawerAppBar />
-      <div className='title'>Sierra Delivery LLC</div>
-      <p>We help clients deliver and move equipment efficiently.</p>
-      <ReusableButton ></ReusableButton>
+      <Grid container direcction="column">
+        <Grid item directon="column" style={{ display: 'flex', alignItems: "center", height: "100vh", margi: '50px' }}>
+          <Typography variant="h1" >
+            SIERRA DELIVERY SERVICES
+          </Typography>;
+        </Grid>
+      </Grid>
+
+
+
+      <Grid container direction="column" >
+        <Grid item directon="column" style={{ display: 'flex', justifyContent: "left", alignItems: "top" }} >
+          <ReusableButton ></ReusableButton>
+        </Grid>
+      </Grid>
+
+      <Grid container direction="column">
+        <img src="/images/truck-cover.jpeg" alt=""></img>
+      </Grid>
+
+
+
     </div>
   )
 }
