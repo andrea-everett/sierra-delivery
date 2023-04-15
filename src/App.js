@@ -1,18 +1,17 @@
-import Button from '@mui/material/Button';
+import DrawerAppBar from "./Components/DrawerAppBar";
+import ReusableButton from "./Components/Reusable/ReusableButton";
 
+const App = () => {
 
-function App() {
   return (
 
-    <div className='title_container'>
+    <div className='App'>
+      <DrawerAppBar />
       <div className='title'>Sierra Delivery LLC</div>
       <p>We help clients deliver and move equipment efficiently.</p>
-
-      <div>
-        <Button variant="contained" onClick={console.log('click event')}>Shop Equipment</Button>
-      </div>
+      <ReusableButton ></ReusableButton>
     </div>
-  );
+  )
 }
 
 export default App;
