@@ -3,12 +3,12 @@ import Button from '@mui/material/Button';
 
 const ReusableButton = () => {
   const buttonStyles = {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: 500,
     backgroundColor: 'white',
     color: 'black',
-    borderRadius: '40%',
-    width: '100px',
+    borderRadius: '12px',
+    width: '400px',
     '&:hover': {
       backgroundColor: 'black',
       color: 'white'
@@ -17,7 +17,7 @@ const ReusableButton = () => {
 
   return (
     <Button variant="outlined" href="#outlined-buttons" sx={buttonStyles}>
-      Link
+      VIEW ALL EQUIPMENT
     </Button>
   )
 }
