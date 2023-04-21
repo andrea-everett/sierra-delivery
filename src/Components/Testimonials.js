@@ -55,6 +55,13 @@ const Testimonials = () => {
           <AdbIcon></AdbIcon>
         </Grid>
 
+        <Grid item direction="column" style={{ display: "flex", height: '30vh', width: "25%" }}>
+          <Typography variant="h2" style={{ marginLeft: '20px' }}>
+            Our Clients
+          </Typography>;
+          <AdbIcon></AdbIcon>
+        </Grid>
+
       </Grid>
     </Grid >
   )

@@ -17,9 +17,7 @@ const GalleryInfo = () => {
             Our inspired solutions have helped shape modern acoustic design. Alluring spaces, internationally recognised for their architectural elegance and exceptional sound management live here.<br></br><br></br><br></br>
             <ReusableButton></ReusableButton>
           </Typography>
-
         </Grid>
-
       </Grid>
     </Grid>
   )

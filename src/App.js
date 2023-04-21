@@ -1,5 +1,6 @@
 import DrawerAppBar from "./Components/DrawerAppBar";
 import ReusableButton from "./Components/Reusable/ReusableButton";
+import Contact from "./Components/Contact";
 import '@fontsource/roboto/300.css';
 
 import { Grid, Typography } from "@mui/material"
@@ -30,6 +31,7 @@ const App = () => {
       <GalleryInfo />
       <Gallery />
       <Testimonials />
+      <Contact />
 
 
 
