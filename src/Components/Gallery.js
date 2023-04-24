@@ -3,6 +3,7 @@ import { Grid, Typography, Button } from "@mui/material";
 import EastIcon from '@mui/icons-material/East';
 
 
+
 const Gallery = () => {
   return (
     <Grid container style={{ borderBottom: '1px solid grey' }} spacing={10}>
@@ -19,7 +20,7 @@ const Gallery = () => {
 
         </Grid>
         <Grid item direction="column" style={{ border: '1px solid grey', display: "flex", height: '20vh', width: '500px', margin: '20px' }}>
-          <img src="/images/truck1.jpeg" alt=""></img>
+          <img id="galleryImage" src="/images/truck1.jpeg" alt=""></img>
         </Grid>
 
         <Grid item direction="column" style={{ border: '1px solid grey', display: "flex", height: '20vh', width: '550px', margin: '20px' }}>
